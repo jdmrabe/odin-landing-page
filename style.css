@@ -2,6 +2,8 @@
 
 html {
   font-family: "Roboto", system-ui;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -160,8 +162,6 @@ button {
   margin: 0;
 }
 
-
-
 .author {
   align-self: flex-end;
   font-size: 26px;
@@ -172,12 +172,13 @@ button {
   display: flex;
   justify-content: space-between;
   background-color: #3882f6;
-  padding: 40px 100px;
+  padding: 40px 80px;
   border-radius: 8px;
   margin-block: 80px;
+  margin-inline: 40px;
   flex-wrap: wrap;
   flex: 1 1 auto;
-  width: 760px;
+  gap: 20px;
 }
 
 .cta-header {
