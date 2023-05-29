@@ -87,6 +87,7 @@ header {
 }
 
 button {
+  transition: 300ms;
   background-color: #3882f6;
   color: #f9faf8;
   font-weight: bold;
@@ -95,6 +96,13 @@ button {
   border-radius: 8px;
   border: 0;
   width: 120px;
+  cursor: pointer;
+}
+
+button:hover {
+  transition: 300ms;
+  background-color: #f9faf8;
+  color: #3882f6;
 }
 
 .main {
