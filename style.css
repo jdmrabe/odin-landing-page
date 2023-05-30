@@ -31,7 +31,8 @@ a {
 }
 
 header,
-.hero {
+.hero, 
+footer {
   background-color: #1f2937;
   color: #f9faf8;
 }
@@ -78,7 +79,6 @@ header {
 }
 
 .hero img {
-  margin-left: 20px;
   height: 280px;
   width: auto;
   flex: 0 1 auto;
@@ -180,6 +180,7 @@ button:hover {
 .cta {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   background-color: #3882f6;
   padding: 40px 80px;
   border-radius: 8px;
@@ -188,12 +189,12 @@ button:hover {
   flex-wrap: wrap;
   flex: 1 1 auto;
   gap: 20px;
+  color: #f9faf8;
 }
 
 .cta-header {
   font-size: 20px;
   font-weight: 600;
-  color: #f9faf8;
 }
 
 .cta-container {
@@ -201,20 +202,14 @@ button:hover {
   flex-direction: column;
   flex-wrap: wrap;
 }
-
-.cta-text {
-  color: #e5e7eb;
-}
-
 .cta-btn {
   border: 2px solid white;
 }
 
-.footer {
+footer {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 40px;
-  background-color: #1f2937;
-  color: #f9faf8;
+  justify-self: flex-end;
 }
